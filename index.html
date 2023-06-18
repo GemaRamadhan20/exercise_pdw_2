@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+        background-color: ghostwhite;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        border: 3px solid black;
+        text-align: center;
+        max-width: 600px;
+        padding: 20px;
+    }
+    header {
+      background-color:aliceblue;
+      padding: 10px;
+      border-radius: 5px 5px 0 0;
+      border-bottom: 1px solid #ccc;
+      text-align: center;  
+      margin-bottom: 30px;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .media-container {
+      width: 100%;
+      text-align: center;
+    }
+
+    .media-container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+     .media-container p {
+      margin-bottom: 20px;
+    }
+    
+    .media-container video {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .survey-button {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+  </style>
+</head>
+<body>
+     <div class="container">
+    <div class="header">
+      <h1>OnePiece RED</h1>
+    </div>
+
+    <div class="main-content">
+      <div class="media-container">
+        <audio src="OnePiece.mp3" controls>
+          Your browser does not support the audio element.
+        </audio>
+        <p>Soundtrack yang digunakan pada OnePiece RED</p>
+
+        <video src="one-piece-film-red-official-trailer.mp4" controls>
+          Your browser does not support the video element.
+        </video>
+        <p>Video trailer OnePiece RED</p>
+        <p>Untuk pertama kalinya, Uta - penyanyi paling dicintai akan mengungkapkan dirinya kepada dunia di konser langsungnya.</p>
+        <p>Luffy, seorang Bajak Laut Topi Jerami yang datang ke sebuah festival musik
+          di Pulau Musik Elegia untuk menyaksikan penampilan Uta—penyanyi tersohor dan paling dicintai di dunia.
+        </p>
+        <p>Akankah Uta Berhasil Membawakan Lagu Yang Sangat Disukai Para Bajak Laut?</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/id/4/44/One_Piece_Film_Red_Visual_Poster.jpg" alt="Deskripsi Gambar">
+      </div>
+      <div class="survey-button">
+        <a class="btn btn-primary" href="form.html">Survey</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>    
+</body>
+</html>
